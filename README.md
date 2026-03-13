@@ -1,4 +1,4 @@
-# 🗳️ SPAS Sub Dean Voting System
+# 🗳️ Short Time Voting System
 
 A secure, real-time digital election platform built with **Python + Streamlit** for the **School of SPAS Sub Dean Election**. Staff authenticate with their Staff ID, cast a single vote for their preferred candidate, and watch live results update instantly via an interactive pie chart.
 
