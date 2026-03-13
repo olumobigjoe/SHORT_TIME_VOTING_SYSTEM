@@ -163,7 +163,7 @@ st.markdown("""
 def render_header(subtitle=""):
     st.markdown(f"""
     <div class="top-bar">
-        <h1>🗳️ SCHOOL OF SPAS — SUB DEAN ELECTION</h1>
+        <h1>🗳️ SPAS — SUB DEAN ELECTION</h1>
         <p>Candidates: &nbsp;<strong>AWO</strong> &nbsp;vs&nbsp; <strong>ADE</strong>
            {"&nbsp;&nbsp;|&nbsp;&nbsp;" + subtitle if subtitle else ""}</p>
     </div>""", unsafe_allow_html=True)
@@ -377,4 +377,5 @@ elif st.session_state.page == "blocked":
     </div>""", unsafe_allow_html=True)
 
     st.write("")
+
     render_live_stats()
